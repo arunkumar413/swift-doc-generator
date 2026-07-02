@@ -1,6 +1,11 @@
 # Swift Markdown Documentation Generator
 
-Generate Markdown documentation from Swift multiline comments directly inside Visual Studio Code.
+Generate Markdown documentation from Swift multiline comments directly inside Visual Studio Code. 
+
+
+If you're a learning the language and wants to create notes, tutorial for your library this is for you. 
+
+Just put the markdown content in the multi-line comment, right click in the file editor and click on the **Generate Markdown Documentation** option. It'll create a markdown file. No need to context switch between the swift file and markdown file for creating the notes/tutorial.
 
 ## Features
 
@@ -62,6 +67,13 @@ Package for the Marketplace:
 ```bash
 npm run package
 ```
+
+`npm run package` will create a `.vsix` extension package. 
+
+1) Go to vs code
+2) Click on the extensions Icon
+3) Select `Install from VSIX` otpion and select the packaged `.vsix` file to install the extension.
+
 
 ## Examples
 
